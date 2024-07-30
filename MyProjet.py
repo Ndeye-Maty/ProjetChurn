@@ -112,4 +112,6 @@ if st.button('Faire une prédiction'):
     st.write(f'Prédiction: {"Churn" if prediction[0] == 1 else "No Churn"}')
     st.write(f'Probabilité de Churn: {prediction_proba[0][1]:.2f}')
 
+#Fin du projet 
+
  
